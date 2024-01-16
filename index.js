@@ -222,29 +222,99 @@
 // } 
 
 //Q10.
-var nameItem1 = prompt("Enter name of item: ")
-var nameItem2 = prompt("Enter name of item: ")
-var prItem1 = parseInt(prompt("Enter price of item1: "))
-var quanItem1 = parseInt(prompt("Enter quantity of item1"))
-var prItem2 = parseInt(prompt("Enter price of item2: "))
-var quanItem2 = parseInt(prompt("Enter quantity of item2"))
-var shippingCharges = 250
+// var nameItem1 = prompt("Enter name of item: ")
+// var prItem1 = parseInt(prompt("Enter price of item1: "))
+// var quanItem1 = parseInt(prompt("Enter quantity of item1"))
+// var nameItem2 = prompt("Enter name of item: ")
+// var prItem2 = parseInt(prompt("Enter price of item2: "))
+// var quanItem2 = parseInt(prompt("Enter quantity of item2"))
+// var shippingCharges = 250
 
-var totalCost = (prItem1 *quanItem1) + (prItem2*quanItem2)+ shippingCharges
-if (totalCost > 2000){
-    var discountPrice = (totalCost * 90)/100
-}
+// var totalCost = (prItem1 *quanItem1) + (prItem2*quanItem2)+ shippingCharges
+// if (totalCost > 2000){
+//     var discountPrice = (totalCost * 90)/100
+// }
+// document.write("<h1>Shopping Cart</h1>")
+// document.write("<br>")
+// document.write("<br>")
 
-document.write("Price of" + " " + nameItem1 + " " + "is" + ":" ,prItem1)
-document.write("<br>")
-document.write("Quantity of" + " " + nameItem1 + " " + "is" + ":" ,quanItem1)
-document.write("<br>")
-document.write("Price of" + " " + nameItem2 + " " + "is" + ":" ,prItem2)
-document.write("<br>")
-document.write("Quantity of" + " " + nameItem2 + " " + "is" + ":" ,quanItem2)
-document.write("<br>")
-document.write("<br>")
-document.write("Shipping Charges: ",shippingCharges)
-document.write("<br>")
-document.write("<br>")
-document.write ("Total Cost of your order is" + " " + totalCost + " "+ "PKR")
+// document.write("Price of" + " " + nameItem1 + " " + "is" + ":" ,prItem1)
+// document.write("<br>")
+// document.write("Quantity of" + " " + nameItem1 + " " + "is" + ":" ,quanItem1)
+// document.write("<br>")
+// document.write("Price of" + " " + nameItem2 + " " + "is" + ":" ,prItem2)
+// document.write("<br>")
+// document.write("Quantity of" + " " + nameItem2 + " " + "is" + ":" ,quanItem2)
+// document.write("<br>")
+// document.write("<br>")
+// document.write("Shipping Charges: ",shippingCharges)
+// document.write("<br>")
+// document.write("<br>")
+// document.write ("Total Cost of your order is" + " " + totalCost + " "+ "PKR")
+// document.write("<br>")
+// document.write("Discounted Price is ",discountPrice)
+
+//Q11.
+
+// var num = 7
+// var userNum = parseInt(prompt("Enter any number betwween 1 to 10: "))
+
+// if (userNum == num){
+//     alert("Bingo! Correct answer.")
+// } else if(userNum == ++num ){
+//     alert("Close enough to the correct answer.")
+// }
+// else{
+//     alert("try again.")
+// }
+
+//Q12.
+
+// var usernum = parseInt(prompt("Enter number: "))
+
+// if (usernum % 3 == 0)  {
+//     alert("Number can be divided")
+// }
+// else {
+//     alert("Cannot be divided")
+// }
+
+//Q13.
+
+// var team1 = prompt("Enter name of team1")
+// var score1 = parseInt(prompt("Enter score of team1"))
+// var team2 = prompt("Enter name of team2")
+// var score2 = parseInt(prompt("Enter score of team2"))
+
+// if (score1 > score2){
+//     alert(team1 + " "+ "has won")
+// } 
+// else if (score2 > score1 ){
+//     alert(team2 + " "+ "has won")
+// }
+// else if (score1 == score2){
+//     alert("Scores are draw")
+// }
+
+//Q!4.
+
+// var name = prompt("Enter name: ")
+// var num = parseInt(prompt("Enter any number: "))
+// var condition = true
+
+// alert (name + " " + "is a" + " "+ typeof(name))
+// alert(num + " " + "is a" + " "+ typeof(num))
+// alert(condition + " " + "is a" + " "+ typeof(condition))
+
+//Q15.
+
+// var num = parseInt(prompt("Enter any number: "))
+
+// if (num % 2 == 0){
+//     alert("Its an even number")
+// }
+// else{
+//     alert("Its an odd number")
+// }
+
+//Q16.
