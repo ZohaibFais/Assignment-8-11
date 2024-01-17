@@ -440,7 +440,7 @@
 //     alert("Please re-enter")
 // }
 
-// // Q23.
+// Q23.
 
 // var num = prompt("Enter number: ")
 // var noun = prompt("Enter noun: ")
