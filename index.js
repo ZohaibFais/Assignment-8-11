@@ -318,3 +318,131 @@
 // }
 
 //Q16.
+ 
+// var temp = parseInt(prompt("Enter temperature: "))
+
+// if (temp>40){
+//     alert("It is too hot outside.")
+// }
+// else if (temp>30){
+//     alert("The Weather today is Normal")
+// }
+// else if(temp>20){
+//     alert("Today's Weather is cool")
+// }
+// else if (temp>10){
+//     alert("OMG! Today's weather is so Cool.")
+// }
+
+//Q17.
+
+// var firstNum = parseInt(prompt("Enter larger number"))
+// var secondNum = parseInt(prompt("Enter second number"))
+// var operation = prompt("Enter operation sign")
+
+// if (operation == "+"){
+//     var total = firstNum + secondNum
+//     alert( firstNum + " " + operation + " "+secondNum + " " + "is :" +" " + total)
+// }
+
+// else if (operation == "-"){
+//     var total = firstNum - secondNum
+//     alert( firstNum + " " + operation + " "+secondNum + " " + "is :" +" " + total)
+// }
+
+// else if (operation == "*"){
+//     var total = firstNum * secondNum
+//     alert( firstNum + " " + operation + " "+secondNum + " " + "is :" +" " + total)
+
+// }
+
+// else if (operation == "/"){
+//     var total = firstNum / secondNum
+//     alert( firstNum + " " + operation + " "+secondNum + " " + "is :" +" " + total)
+// }
+
+
+// else if (operation == "%"){
+//     var total = firstNum % secondNum
+//     alert( firstNum + " " + operation + " "+secondNum + " " + "is :" +" " + total)
+// }
+
+//Q18.
+
+// var dayName = prompt("Enter day name: ")
+
+// if (dayName =="Monday" || dayName =="Tuesday" || dayName =="Wednesday"|| dayName == "Thursday" || dayName =="Frday"){
+//     alert("It's a week day")
+// }
+// else if (dayName == "Saturday"){
+//     alert("It's a weekend")
+// }
+// else if (dayName == "Sunday" ){
+//     alert(" Yay! It's a holiday")
+// }
+
+//Q19.
+
+// var score = parseInt(prompt("Enter score: "))
+
+// if (score > 50){
+//     alert("You are passed")
+// }
+// else if (score == 50){
+//     alert("You are on the borderline")
+// }
+// else{
+//     alert("Try again!")
+// }
+
+//Q20.
+
+// var num1 = parseInt(prompt("Enter number: "))
+// var num2 = parseInt(prompt("Enter number: "))
+
+// if (num1 > num2){
+//     alert("The greater number of " + " " + num1 + " " + "and" + " "+ num2 + " " + "is" + " " + num1  )
+// }
+
+// else if (num2 > num1){
+//     alert("The greater number of " + " " + num1 + " " + "and" + " "+ num2 + " " + "is" + " " + num2  )
+// }
+
+// else if (num1 == num2){
+//         alert(num1 + " " + "and" + " " + num2 + " "+ "are equal" )
+// }
+
+// Q21.
+
+// var code = prompt("Enter language code: en(English), es(Spansih) and de(German)")
+
+// if (code == "en"){
+//     alert("Hello, World")
+// }
+// else if (code == "es"){
+//     alert("Hola, Mundo")
+// }
+// else{
+//     alert("Hallo, Welt")
+// }
+
+// Q22.
+
+// var num = parseInt(prompt("Enter number: "))
+
+// if (num > 0) {
+//     alert(num + " " + "is a positive number.")
+// }
+// else if (num < 0){
+//     alert(num + " " + "is a negative number.")
+// }
+// else{
+//     alert("Please re-enter")
+// }
+
+// // Q23.
+
+// var num = prompt("Enter number: ")
+// var noun = prompt("Enter noun: ")
+
+// alert (num + " " + noun )
